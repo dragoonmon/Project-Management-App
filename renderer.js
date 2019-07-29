@@ -15,4 +15,8 @@ ipcRenderer.on('add-project-to-list', (event, message) => {
     document.getElementById('projectList').appendChild(node)
 })
 
-//TODO: delete a project via double click
+// delete a project via double click
+const ul = document.querySelector('ul')
+ul.addEventListener('dblclick', function (event) {
+    event.target.remove()
+})
