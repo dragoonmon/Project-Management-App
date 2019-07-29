@@ -20,3 +20,8 @@ const ul = document.querySelector('ul')
 ul.addEventListener('dblclick', function (event) {
     event.target.remove()
 })
+
+// delete all projects in list
+ipcRenderer.on('clear-all', function () {
+    ul.innerHTML = ''
+})
