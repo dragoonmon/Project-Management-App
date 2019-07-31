@@ -1,0 +1,31 @@
+body {
+    background-color: #bfe5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #5d8dd9;
+    border-radius: 5px;
+    background-color: none;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: #e04c41;
+    transition: 0.3s;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #db3a2e;
+}
+
+p {
+    text-align: center;
+ }
